@@ -1,0 +1,13 @@
+﻿,ID,Name,Type,Description,Parent Model,Model ID,Stereotypes,Visibility,Abstract,Leaf,Root,Active,Business model,Transit From,Transit To,Initial value,Multiplicity,Type Modifier,Scope,Aggregation,Derived,Visible,Setter,Getter,Unique,Template Info,General,Specific,Substitutable,From,From Role,From Multiplicity,From Navigable,From Aggregation Kind,To,To Role,To Multiplicity,To Navigable,To Aggregation Kind,ORM Collection Type,Diagram ID,Diagram Name,Parent ID,Parent Name,Delete ?
+Diagram,1,SMALL_1.1,ClassDiagram,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No
+Class,2,Class1,,,,3,,public,No,No,No,No,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,SMALL_1.1,,,No
+Attribute,4,var1,,,,4,,private,No,,,,,,,,Unspecified,,instance,None,No,Yes,No,No,Yes,,,,,,,,,,,,,,,,1,SMALL_1.1,3,Class1,No
+Attribute,5,var2,,,,5,,private,No,,,,,,,,Unspecified,,instance,None,No,Yes,No,No,Yes,,,,,,,,,,,,,,,,1,SMALL_1.1,3,Class1,No
+Class,6,Class2,,,,7,,public,No,No,No,No,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,SMALL_1.1,,,No
+Attribute,8,var1,,,,8,,private,No,,,,,,,,Unspecified,,instance,None,No,Yes,No,No,Yes,,,,,,,,,,,,,,,,1,SMALL_1.1,7,Class2,No
+Attribute,9,var2,,,,9,,private,No,,,,,,,,Unspecified,,instance,None,No,Yes,No,No,Yes,,,,,,,,,,,,,,,,1,SMALL_1.1,7,Class2,No
+Attribute,10,var3,,,,10,,private,No,,,,,,,,Unspecified,,instance,None,No,Yes,No,No,Yes,,,,,,,,,,,,,,,,1,SMALL_1.1,7,Class2,No
+Class,11,Class3,,,,12,,public,No,No,No,No,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,1,SMALL_1.1,,,No
+Attribute,13,var1,,,,13,,private,No,,,,,,,,Unspecified,,instance,None,No,Yes,No,No,Yes,,,,,,,,,,,,,,,,1,SMALL_1.1,12,Class3,No
+Generalization,14,,,,,15,,Unspecified,,,,,,,,,,,,,,,,,,,2,6,No,,,,,,,,,,,,1,SMALL_1.1,16,Generalization,No
+Association,17,,,,,18,,Unspecified,No,No,,,,,,,,,,,No,,,,,,,,,11,,Unspecified,True,None,2,,Unspecified,True,None,,1,SMALL_1.1,19,Association,No

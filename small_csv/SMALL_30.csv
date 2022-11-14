@@ -1,0 +1,26 @@
+﻿,ID,Name,Type,Description,Parent Model,Model ID,Stereotypes,Visibility,Abstract,Leaf,Root,Active,Business model,Transit From,Transit To,Initial value,Multiplicity,Type Modifier,Scope,Aggregation,Derived,Visible,Setter,Getter,Unique,From,From Role,From Multiplicity,From Navigable,From Aggregation Kind,To,To Role,To Multiplicity,To Navigable,To Aggregation Kind,ORM Collection Type,Template Info,General,Specific,Substitutable,Diagram ID,Diagram Name,Parent ID,Parent Name,Delete ?
+Diagram,3,SMALL_1.1,ClassDiagram,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,No
+Class,4,class5,,,,5,,public,No,No,No,No,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,SMALL_1.1,,,No
+Attribute,6,v1,,,,6,,private,No,,,,,,,,Unspecified,,instance,None,No,Yes,No,No,Yes,,,,,,,,,,,,,,,,3,SMALL_1.1,5,class5,No
+Attribute,7,v3,,,,7,,private,No,,,,,,,,Unspecified,,instance,None,No,Yes,No,No,Yes,,,,,,,,,,,,,,,,3,SMALL_1.1,5,class5,No
+Class,8,Class,,,,9,,public,No,No,No,No,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,SMALL_1.1,,,No
+Attribute,10,v1,,,,10,,private,No,,,,,,,,Unspecified,,instance,None,No,Yes,No,No,Yes,,,,,,,,,,,,,,,,3,SMALL_1.1,9,Class,No
+Attribute,11,v4,,,,11,,private,No,,,,,,,,Unspecified,,instance,None,No,Yes,No,No,Yes,,,,,,,,,,,,,,,,3,SMALL_1.1,9,Class,No
+Attribute,12,v5,,,,12,,private,No,,,,,,,,Unspecified,,instance,None,No,Yes,No,No,Yes,,,,,,,,,,,,,,,,3,SMALL_1.1,9,Class,No
+Class,13,Class3,,,,14,,public,No,No,No,No,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,SMALL_1.1,,,No
+Attribute,15,v3,,,,15,,private,No,,,,,,,,Unspecified,,instance,None,No,Yes,No,No,Yes,,,,,,,,,,,,,,,,3,SMALL_1.1,14,Class3,No
+Attribute,16,v4,,,,16,,private,No,,,,,,,,Unspecified,,instance,None,No,Yes,No,No,Yes,,,,,,,,,,,,,,,,3,SMALL_1.1,14,Class3,No
+Attribute,17,v6,,,,17,,private,No,,,,,,,,Unspecified,,instance,None,No,Yes,No,No,Yes,,,,,,,,,,,,,,,,3,SMALL_1.1,14,Class3,No
+Attribute,18,var1,,,,18,,private,No,,,,,,,,Unspecified,,instance,None,No,Yes,No,No,Yes,,,,,,,,,,,,,,,,3,SMALL_1.1,14,Class3,No
+Class,19,Class2,,,,20,,public,No,No,No,No,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,SMALL_1.1,,,No
+Attribute,21,var3,,,,21,,private,No,,,,,,,,Unspecified,,instance,None,No,Yes,No,No,Yes,,,,,,,,,,,,,,,,3,SMALL_1.1,20,Class2,No
+Attribute,22,v5,,,,22,,private,No,,,,,,,,Unspecified,,instance,None,No,Yes,No,No,Yes,,,,,,,,,,,,,,,,3,SMALL_1.1,20,Class2,No
+Attribute,23,v6,,,,23,,private,No,,,,,,,,Unspecified,,instance,None,No,Yes,No,No,Yes,,,,,,,,,,,,,,,,3,SMALL_1.1,20,Class2,No
+Attribute,24,v7,,,,24,,private,No,,,,,,,,Unspecified,,instance,None,No,Yes,No,No,Yes,,,,,,,,,,,,,,,,3,SMALL_1.1,20,Class2,No
+Class,25,Class1,,,,26,,public,No,No,No,No,No,,,,,,,,,,,,,,,,,,,,,,,,,,,,3,SMALL_1.1,,,No
+Attribute,27,var1,,,,27,,private,No,,,,,,,,Unspecified,,instance,None,No,Yes,No,No,Yes,,,,,,,,,,,,,,,,3,SMALL_1.1,26,Class1,No
+Attribute,28,v4,,,,28,,private,No,,,,,,,,Unspecified,,instance,None,No,Yes,No,No,Yes,,,,,,,,,,,,,,,,3,SMALL_1.1,26,Class1,No
+Association,29,,,,,30,,Unspecified,No,No,,,,,,,,,,,No,,,,,19,,Unspecified,True,None,8,,Unspecified,True,None,,,,,,3,SMALL_1.1,31,Association,No
+Generalization,32,,,,,33,,Unspecified,,,,,,,,,,,,,,,,,,,,,,,,,,,,,,13,25,No,3,SMALL_1.1,34,Generalization,No
+Association,35,,,,,36,,Unspecified,No,No,,,,,,,,,,,No,,,,,19,,Unspecified,True,None,25,,Unspecified,True,None,,,,,,3,SMALL_1.1,31,Association,No
+Association,37,,,,,38,,Unspecified,No,No,,,,,,,,,,,No,,,,,4,,Unspecified,True,None,25,,Unspecified,True,None,,,,,,3,SMALL_1.1,31,Association,No
